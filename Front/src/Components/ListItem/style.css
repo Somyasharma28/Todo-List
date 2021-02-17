@@ -1,0 +1,30 @@
+.App .listItem {
+    padding: 5px;
+    display: block;
+    background-color: white;
+    margin-bottom: 10px;
+    width: inherit;
+}
+
+.App .listItem::before {  
+    content: '+';
+    font-size: x-large;
+    margin-right: 2px;
+}
+
+.App .editDelete {
+    color: cadetblue;
+    position: initial;
+    float: right;
+
+}
+
+.App .editDelete .edit:hover {
+    color: yellowgreen;
+    font-size: medium;
+}
+
+.App .editDelete .delete:hover {
+    color: red;
+    font-size: medium;
+}

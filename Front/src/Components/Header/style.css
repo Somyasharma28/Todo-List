@@ -1,0 +1,13 @@
+.mainHeader {
+    background: rgb(87,158,212);
+    background: linear-gradient(90deg, rgba(87,158,212,1) 26%, rgba(6,6,45,1) 73%);
+}
+
+.mainHeader a {
+    color: white;
+}
+
+.mainHeader a:hover {
+    color: lightgray;
+}
+

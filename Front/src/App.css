@@ -1,0 +1,12 @@
+.App .navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+
+a:link:hover {
+ cursor: grab;
+}

@@ -1,0 +1,40 @@
+.wave {
+    position: absolute;
+    z-index: 1;
+}
+
+.todoList {
+    position: relative;
+    z-index: 2;
+}
+
+.App .taskInputArea {
+    position: absolute;
+    width: 20rem;
+    height: 3rem;
+    top: 60px;
+    left: 470px;
+    display: inline;
+}
+
+.App .addTask {
+    position: absolute;
+    height: 3rem;
+    top: 60px;
+    left: 60%;
+}
+
+.listData {
+    position: absolute;
+    display: block;
+    left: 35%;
+    top: 25vh;
+    width: 20rem;
+}
+
+.logout {
+    position: absolute;
+    top: 10px;
+    left: 90%;
+    cursor: grab;
+}
